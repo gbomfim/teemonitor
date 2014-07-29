@@ -1,0 +1,22 @@
+{
+  "site" : "Qwertee",
+  "url"  : "http://www.qwertee.com",
+  "time" : "24h",
+  "elements" : [
+      {
+        "main_selector" : "div.index-tee",
+        "selectors" : [
+          {
+            "name" : "name",
+            "selector" : "",
+            "attribute" : "data-name"
+          },
+          {
+            "name" : "image",
+            "selector" : "div.buy img",
+            "attribute" : "src"
+          }
+        ]
+      }
+  ]
+}

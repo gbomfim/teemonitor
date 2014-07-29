@@ -1,0 +1,23 @@
+{
+  "site" : "Tee Fury",
+  "url"  : "http://www.teefury.com",
+  "time" : "24h",
+  "elements" : [
+      {
+        "main_selector" : "div.battle_product",
+        "selectors" : [
+          {
+            "name" : "name",
+            "selector" : "img.main-artwork-image",
+            "attribute" : "alt"
+          },
+          {
+            "name" : "image",
+            "selector" : "img.main-artwork-image",
+            "attribute" : "src"
+          }
+        ]
+      }
+  ]
+}
+

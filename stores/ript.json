@@ -1,0 +1,22 @@
+{
+  "site" : "Ript Apparel",
+  "url"  : "https://www.riptapparel.com",
+  "time" : "24h",
+  "elements" : [
+      {
+        "main_selector" : "div.design-wrapper",
+        "selectors" : [
+          {
+            "name" : "name",
+            "selector" : "img.detail-img",
+            "attribute" : "alt"
+          },
+          {
+            "name" : "image",
+            "selector" : "img.detail-img",
+            "attribute" : "src"
+          }
+        ]
+      }
+  ]
+}

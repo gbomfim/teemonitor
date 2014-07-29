@@ -1,0 +1,24 @@
+{
+  "site" : "Unamee",
+  "url"  : "http://www.unamee.com",
+  "time" : "24h",
+  "elements" : [
+      {
+        "main_selector" : "div.List_box:not(.panel)",
+        "selectors" : [
+          {
+            "name" : "name",
+            "selector" : "div.list_Name",
+            "attribute" : "content"
+          },
+          {
+            "name" : "image",
+            "selector" : "div.list_img img",
+            "attribute" : "src"
+          }
+        ]
+      }
+  ]
+}
+
+

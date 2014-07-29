@@ -1,0 +1,25 @@
+{
+  "site" : "OtherTees",
+  "url"  : "http://www.othertees.com",
+  "time" : "24h",
+  "elements" : [
+      {
+        "main_selector" : "ul.nav.navbar-nav > li.dropdown",
+        "selectors" : [
+          {
+            "name" : "name",
+            "selector" : "div.dd-tee > h4",
+            "attribute" : "content"
+          },
+          {
+            "name" : "image",
+            "selector" : "div.dd-tee img",
+            "attribute" : "src"
+          }
+        ]
+     }
+  ]
+}
+
+
+
